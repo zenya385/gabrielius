@@ -1,0 +1,76 @@
+
+*{
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: blue
+}
+
+ .container > h1{
+  border: 10px solid red;
+  height: 50px;
+}
+
+
+
+a:hover,
+a:focus {
+  color: red;
+  font-size: 30px;
+}
+
+div:hover a {
+  color: rgb(255, 145, 0);
+  font-size: 50px;
+}
+
+a:active {
+  color: rgb(0, 255, 136);
+}
+
+a:visited {
+  color: black
+}
+
+.container {
+  /* color:red */
+}
+
+/* слектор класса */
+
+.wrap {
+  font-size: 32px;
+  color: red;
+}
+
+.wrap span {
+  text-transform: uppercase;
+  color: aqua;
+}
+
+#id-selector {}
+
+.social-links {
+  color: red;
+}
+
+.social-links>a {
+  color: rgb(55, 0, 255);
+}

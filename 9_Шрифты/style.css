@@ -1,0 +1,52 @@
+/* text-decoration: none | underline | line-through | overline */
+/* text-transform: none | uppercase | lowercase | capitalize */
+/* text-align: left | right | center | justify */
+/* text-indent: значение | проценты | inherit */
+/* line-height: множитель | значение | проценты | normal | inherit */
+/* letter-spacing: значение | normal | inherit */
+/* word-spacing: значение | normal | inherit */
+/* text-shadow: <смещение по x>, <смещение по y>, <радиус размытия>, <цвет> */
+
+/* font-size: 16px; */
+/* font-weight: 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 */
+/* font-style: normal | italic | oblique | initial | inherit */
+
+/* font-family: 'Times New Roman', 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif; */
+
+body {
+  background-color: orange;
+}
+
+.title {
+  font-family:'Raleway';
+  text-decoration: 5px solid underline;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.title-small {
+  font-family: 'Roboto';
+  text-transform: capitalize;
+  /* text-decoration: line-through; */
+  text-align: justify;
+}
+
+.post-text {
+
+  text-indent: 5%;
+  line-height: 1.23;
+  letter-spacing: 0.15px;
+  word-spacing: 1.23px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.post-text::first-letter{
+  font-size: 25px;
+  color: aqua;
+}
+.post-text::selection{
+
+  color: red;
+  background-color: yellowgreen;
+}
