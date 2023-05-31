@@ -65,3 +65,8 @@ body {
   padding: 20px;
   background-color: yellowgreen;
 }
+
+
+.animate__animated.animate__bounce {
+  --animate-duration: 10s;
+}

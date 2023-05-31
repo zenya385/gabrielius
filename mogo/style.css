@@ -49,7 +49,6 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
   height: 68px;
 }
 
@@ -79,6 +78,18 @@ body {
 
 
 /* ============= main ============ */
+
+.hero {
+  outline: 1px solid red;
+  height: 500px;
+  background-color: #48abe4;
+  background-image: url(img/pngwing.com.png), url(img/BG.jpg);
+  /* background-image: url(img/pngwing.com.png); */
+  background-repeat: no-repeat;
+  background-size: 300px, cover;
+  background-position: center;
+}
+
 .work {}
 
 .work-subtitle {
