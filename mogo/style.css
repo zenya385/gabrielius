@@ -64,13 +64,20 @@ body {
   display: flex;
   align-items: center;
   padding: 25px 0;
-
 }
 
 .nav-item {
   text-transform: uppercase;
+}
+
+.nav-item:hover a {
+  color: #48abe4;
+}
+
+.nav-item>a {
   color: #95E1D3;
 }
+
 
 .nav-item:not(:last-child) {
   margin-right: 55px;
@@ -90,7 +97,7 @@ body {
   background-position: center;
 }
 
-.work {}
+
 
 .work-subtitle {
   font-family: 'Kaushan Script';
@@ -99,8 +106,6 @@ body {
 }
 
 .work-title {
-
-
   font-weight: 700;
   font-size: 30px;
   line-height: 1.23;
@@ -109,13 +114,6 @@ body {
 
 }
 
-.work-line {}
-
-.work-list {}
-
-.work-item {}
-
-.work-item-title {}
 
 .work-item-text {
   font-family: 'Roboto';
@@ -125,3 +123,21 @@ body {
 }
 
 /* ============= footer ============ */
+
+
+
+/* ============= service =========== */
+
+
+
+.box::before {
+  content: '\1F60E';
+  font-size: 40px;
+  color: orange;
+}
+
+.box::after {
+  content: '\1F525';
+  font-size: 30px;
+  color: teal;
+}
