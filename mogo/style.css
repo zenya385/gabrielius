@@ -22,8 +22,10 @@ ul {
 }
 
 img {
+  /* display: block; */
   max-width: 100%;
-  display: block;
+  height: auto;
+
 }
 
 a {
@@ -97,7 +99,14 @@ body {
   background-position: center;
 }
 
+/* ======================= section imaging============ */
+.icon-phone {
+  fill: #757575;
+}
 
+.icon-phone:hover {
+  fill: #48abe4
+}
 
 .work-subtitle {
   font-family: 'Kaushan Script';
