@@ -1,0 +1,71 @@
+/* img {
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    transform: translate(0, 1000px);
+  }
+
+  25% {
+    transform: translate(1000px, -1000px);
+  }
+
+  50% {
+    transform: translate(3000px, 0);
+  }
+
+  75% {}
+
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+/* body,
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+*/
+
+
+img {
+  animation-name: sun;
+  animation-duration: 5000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes sun {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+
+  25% {
+    transform: translate(0px, 530px) rotate(100deg);
+  }
+
+  50% {
+    transform: translate(530px, 530px) rotate(200deg);
+  }
+
+  75% {
+    transform: translate(530px, 0px) rotate(280deg);
+  }
+
+  100% {
+    transform: translate(0px, 0px) rotate(360deg);
+  }
+}

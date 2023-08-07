@@ -62,6 +62,6 @@ body {
 /* .list-item:last-child {
   margin-bottom: 0;
 } */
-.list-item: .list-item:nth-child(2n) {
+.list-item .list-item:nth-child(2n) {
   background-color: orange;
 }
