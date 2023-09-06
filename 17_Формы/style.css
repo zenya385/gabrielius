@@ -1,0 +1,11 @@
+.form_login {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  margin-bottom: 50px;
+}
+
+.login_btn {
+  display: inline-block;
+  width: 150px;
+}
