@@ -1,3 +1,30 @@
+form {
+  width: 400px;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+label {
+  margin-top: 16px;
+  display: block;
+  font-size: 15px;
+}
+
+label[type="checkbox"] {
+  display: inline;
+}
+
+input {
+  margin-top: 10px;
+  display: block;
+  height: 25px;
+  border-radius: 7px;
+  border: 2px solid grey;
+  width: 100%;
+}
+
 .form_login {
   display: flex;
   flex-direction: column;
@@ -7,5 +34,59 @@
 
 .login_btn {
   display: inline-block;
+  font-family: Rozetka, BlinkMacSystemFont, -apple-system, Arial, Segoe UI, Roboto, Helvetica, sans-serif;
+  /* width: 150px; */
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  background-color: #00a046;
+  margin-top: 16px;
+  gap: 10px;
+}
+
+/* input[type="checkbox"] { */
+label>input[type="checkbox"] {
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 24px;
+  width: auto;
+  text-align: center;
+
+}
+
+#text .title {}
+
+.title {}
+
+
+
+
+h1+p {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+a {
   width: 150px;
+}
+
+div {
+  margin: 0 auto;
+  text-align: center;
+  border: solid;
+  /* width: 500px; */
+  height: 200px;
 }

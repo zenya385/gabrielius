@@ -1,0 +1,171 @@
+:root {
+  --brand-color: #95E1D3;
+  /* --primary-color:   */
+  --hover-color: #48abe4;
+}
+
+
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  // display: block; 
+max-width: 100%;
+height: auto;
+
+}
+
+a {
+  text-decoration: none;
+}*/
+
+/* body {
+  font-family: 'Montserrat',
+    sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+} */
+
+/* .container {
+  width: 1040px;
+  margin: 0 auto;
+ // padding: 0 15px; 
+} */
+
+/* ============= header ============ */
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  height: 68px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: var(--brand-color);
+  padding: 17px 0;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+
+.nav-item:hover a {
+  color: var(--hover-color);
+}
+
+.nav-item>a {
+  color: var(--brand-color);
+}
+
+
+.nav-item:not(:last-child) {
+  margin-right: 55px;
+} */
+
+
+/* ============= main ============ */
+
+.hero {
+  outline: 1px solid red;
+  height: 500px;
+  background-color: var(--hover-color);
+  background-image: url(img/pngwing.com.png), url(img/BG.jpg);
+  /* background-image: url(img/pngwing.com.png); */
+  background-repeat: no-repeat;
+  background-size: 300px, cover;
+  background-position: center;
+}
+
+/* ======================= section imaging============ */
+.icon-phone {
+  fill: #757575;
+}
+
+.icon-phone:hover {
+  fill: var(--hover-color);
+}
+
+.work-subtitle {
+  font-family: 'Kaushan Script';
+  font-size: 28px;
+  line-height: 1.25;
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.23;
+  font-variant: all-small-caps;
+  text-transform: uppercase;
+
+}
+
+
+.work-item-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  line-height: 1.47;
+  color: #B6B6B6;
+}
+
+/* ============= footer ============ */
+
+
+
+/* ============= service =========== */
+
+
+
+.box::before {
+  content: '\1F60E';
+  font-size: 40px;
+  color: orange;
+}
+
+.box::after {
+  content: '\1F525';
+  font-size: 30px;
+  color: teal;
+}
+
+
+svg {}
+
+.qwerty {}
+
+#asdf {}
+
+[id="asdf"] {}
+
+
+/* ========================================================= */
